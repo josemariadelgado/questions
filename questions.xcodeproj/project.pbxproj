@@ -15,6 +15,11 @@
 		46079BEC1C81248200382CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46079BEA1C81248200382CF2 /* LaunchScreen.storyboard */; };
 		46079BF71C81248200382CF2 /* questionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46079BF61C81248200382CF2 /* questionsTests.swift */; };
 		46079C021C81248200382CF2 /* questionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46079C011C81248200382CF2 /* questionsUITests.swift */; };
+		46079C141C8124DD00382CF2 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46079C131C8124DD00382CF2 /* DataController.swift */; };
+		46079C161C81252000382CF2 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46079C151C81252000382CF2 /* LevelViewController.swift */; };
+		46079C191C85066A00382CF2 /* AAALevelMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46079C171C85066A00382CF2 /* AAALevelMO+CoreDataProperties.swift */; };
+		46079C1A1C85066A00382CF2 /* AAALevelMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46079C181C85066A00382CF2 /* AAALevelMO.swift */; };
+		46079C1E1C85164800382CF2 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 46079C1D1C85164800382CF2 /* tick.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		46079BFD1C81248200382CF2 /* questionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = questionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46079C011C81248200382CF2 /* questionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionsUITests.swift; sourceTree = "<group>"; };
 		46079C031C81248200382CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46079C131C8124DD00382CF2 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		46079C151C81252000382CF2 /* LevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		46079C171C85066A00382CF2 /* AAALevelMO+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AAALevelMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		46079C181C85066A00382CF2 /* AAALevelMO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAALevelMO.swift; sourceTree = "<group>"; };
+		46079C1D1C85164800382CF2 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tick.png; path = ../../../../Documents/tick.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,9 @@
 		46079BD21C81248200382CF2 = {
 			isa = PBXGroup;
 			children = (
+				46079C1D1C85164800382CF2 /* tick.png */,
+				46079C171C85066A00382CF2 /* AAALevelMO+CoreDataProperties.swift */,
+				46079C181C85066A00382CF2 /* AAALevelMO.swift */,
 				46079BDD1C81248200382CF2 /* questions */,
 				46079BF51C81248200382CF2 /* questionsTests */,
 				46079C001C81248200382CF2 /* questionsUITests */,
@@ -101,6 +114,8 @@
 			children = (
 				46079BDE1C81248200382CF2 /* AppDelegate.swift */,
 				46079BE01C81248200382CF2 /* ViewController.swift */,
+				46079C151C81252000382CF2 /* LevelViewController.swift */,
+				46079C131C8124DD00382CF2 /* DataController.swift */,
 				46079BE21C81248200382CF2 /* Main.storyboard */,
 				46079BE81C81248200382CF2 /* Assets.xcassets */,
 				46079BEA1C81248200382CF2 /* LaunchScreen.storyboard */,
@@ -196,6 +211,7 @@
 				TargetAttributes = {
 					46079BDA1C81248200382CF2 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4V69PP9G2M;
 					};
 					46079BF11C81248200382CF2 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -234,6 +250,7 @@
 			files = (
 				46079BEC1C81248200382CF2 /* LaunchScreen.storyboard in Resources */,
 				46079BE91C81248200382CF2 /* Assets.xcassets in Resources */,
+				46079C1E1C85164800382CF2 /* tick.png in Resources */,
 				46079BE41C81248200382CF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46079C141C8124DD00382CF2 /* DataController.swift in Sources */,
+				46079C1A1C85066A00382CF2 /* AAALevelMO.swift in Sources */,
 				46079BE71C81248200382CF2 /* questions.xcdatamodeld in Sources */,
+				46079C191C85066A00382CF2 /* AAALevelMO+CoreDataProperties.swift in Sources */,
+				46079C161C81252000382CF2 /* LevelViewController.swift in Sources */,
 				46079BE11C81248200382CF2 /* ViewController.swift in Sources */,
 				46079BDF1C81248200382CF2 /* AppDelegate.swift in Sources */,
 			);
@@ -401,10 +422,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = questions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JoseMariaDelgado.questions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +436,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = questions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JoseMariaDelgado.questions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -486,6 +513,7 @@
 				46079C081C81248200382CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46079C091C81248200382CF2 /* Build configuration list for PBXNativeTarget "questionsTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +522,7 @@
 				46079C0B1C81248200382CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46079C0C1C81248200382CF2 /* Build configuration list for PBXNativeTarget "questionsUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +531,7 @@
 				46079C0E1C81248200382CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
